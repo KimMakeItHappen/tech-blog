@@ -1,5 +1,5 @@
 module.exports = {
-    date_formatter: (date) => {
-      return date.toLocaleDateString();
-    },
-  };
+  format_date: date => {
+    return `${date.getMonth() + 1}/${date.getDate()}/${date.getFullYear()}`;
+  }
+};
