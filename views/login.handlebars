@@ -1,72 +1,19 @@
-<div class='row'>
-  <div class='col-6'>
-    <form id='sign-in-form'>
-      <h1 class='h3 mb-3 fw-normal'>Please sign in</h1>
-
-      <div class='form-floating'>
-        <input
-          type='email'
-          class='form-control'
-          id='sign-in-email'
-          placeholder='name@example.com'
-          autocomplete='off'
-        />
-        <label for='sign-in-email'>Email address</label>
-      </div>
-      <div class='form-floating'>
-        <input
-          type='password'
-          class='form-control'
-          id='sign-in-password'
-          placeholder='Password'
-          autocomplete='off'
-        />
-        <label for='sign-in-password'>Password</label>
-      </div>
-
-      <button class='w-100 btn btn-lg btn-primary' type='submit'>Sign in</button>
-    </form>
+<div class="card">
+  <div class="card-header">
+    <h2>Login</h2>
   </div>
-
-  <div class='col-6'>
-    <form id='sign-up-form'>
-      <h1 class='h3 mb-3 fw-normal'>Please sign up</h1>
-
-      <div class='form-floating'>
-        <input
-          type='text'
-          class='form-control'
-          id='create-username'
-          placeholder='username'
-          autocomplete='off'
-        />
-        <label for='create-username'>Username</label>
-      </div>
-
-      <div class='form-floating'>
-        <input
-          type='email'
-          class='form-control'
-          id='create-email'
-          placeholder='name@example.com'
-          autocomplete='off'
-        />
-        <label for='create-email'>Email address</label>
-      </div>
-      <div class='form-floating'>
-        <input
-          type='password'
-          class='form-control'
-          id='create-password'
-          placeholder='Password'
-          autocomplete='off'
-        />
-        <label for='create-password'>Password</label>
-      </div>
-
-      <button class='w-100 btn btn-lg btn-primary' type='submit'>Sign up</button>
-    </form>
-  </div>
+  <form id="login-form" class="card-body">
+    <div>
+      <label for="username-input-login">Username</label>
+      <input type="text" id="username-input-login" />
+    </div>
+    <div>
+      <label for="password-input-login" class="form-label">Password</label>
+      <input type="password" id="password-input-login" />
+    </div>
+    <button type="submit" id="login-btn" class="btn">Login!</button>
+    <a type="button" href="/signup">Sign up instead</a>
+  </form>
 </div>
 
-<script src='/login.js'></script>
+<script src="/js/login.js"></script>
