@@ -9,12 +9,13 @@ router.get('/', withAuth, async (req, res) => {
         userId: req.session.userId,
       },
     });
-
+    // turn into JSON
     const posts = postData.map((post) => post.get({ plain: true }));
-
+    
     res.render('all-posts-admin', {
       layout: 'dashboard',
       posts,
+      loggedIn:req.session.loggedIn
     });
   } catch (err) {
     res.redirect('login');
