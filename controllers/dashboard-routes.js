@@ -21,13 +21,13 @@ router.get('/', withAuth, async (req, res) => {
     res.redirect('login');
   }
 });
-
+// new post
 router.get('/new', withAuth, (req, res) => {
   res.render('new-post', {
     layout: 'dashboard',
   });
 });
-
+// editing post
 router.get('/edit/:id', withAuth, async (req, res) => {
   try {
     const postData = await Post.findByPk(req.params.id);
