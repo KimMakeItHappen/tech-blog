@@ -3,6 +3,7 @@ const { Post } = require('../models/');
 const withAuth = require('../utils/auth');
 
 router.get('/', withAuth, async (req, res) => {
+  console.log('in the dashboard routes');
   try {
     const postData = await Post.findAll({
       where: {
@@ -11,7 +12,7 @@ router.get('/', withAuth, async (req, res) => {
     });
     // turn into JSON
     const posts = postData.map((post) => post.get({ plain: true }));
-    
+    console.log('posts', posts);
     res.render('all-posts-admin', {
       layout: 'dashboard',
       posts,
