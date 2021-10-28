@@ -54,9 +54,16 @@ WHEN I am idle on the site for more than a set time
 THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
 
 # My Mock Up
+youtube video of the website: https://youtu.be/5SZlPo2xMxI
 Deployed Project: https://ancient-taiga-11612.herokuapp.com/
 Photos: ![Screen Shot 2021-10-04 at 7 00 04 PM](https://user-images.githubusercontent.com/80864786/135935965-c6ad27a8-6e54-445b-989e-a93c0330b518.png)
 ![Screen Shot 2021-10-04 at 6 22 44 PM](https://user-images.githubusercontent.com/80864786/135935977-6cc67719-2400-4660-9aaf-ad9f1f90599e.png)
 ![Screen Shot 2021-10-04 at 6 06 21 PM](https://user-images.githubusercontent.com/80864786/135935983-cac44772-2fdc-40cb-911e-79d5ed78db05.png)
+![Screen Shot 2021-10-28 at 10 06 58 AM](https://user-images.githubusercontent.com/80864786/139272723-10e9f21e-b05d-4b78-a3d4-c979744f407d.png)![Screen Shot 2021-10-04 at 6 06 21 PM](https://user-images.githubusercontent.com/80864786/139272742-16dc8147-437e-4885-af62-727af024314c.png)
+![Screen Shot 2021-10-04 at 6 22 44 PM](https://user-images.githubusercontent.com/80864786/139272745-681c2501-23ab-4bef-96a6-309d80a385b9.png)
+![Screen Shot 2021-10-04 at 7 00 04 PM](https://user-images.githubusercontent.com/80864786/139272747-6e0e3450-029d-47b6-837b-8852731e9d48.png)
+
+![Screen Shot 2021-10-28 at 10 07 11 AM](https://user-images.githubusercontent.com/80864786/139272727-1f55aea9-e1e9-4794-abe4-d111c8494bff.png)
+![Screen Shot 2021-10-28 at 10 07 53 AM](https://user-images.githubusercontent.com/80864786/139272729-d1987a69-b1e3-4c29-b5a0-acbcbefebae1.png)
 
 
